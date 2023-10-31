@@ -6,6 +6,8 @@ import queryString from 'query-string';
 /*
   https://developers.line.biz/zh-hant/
   到LINE Developers Console 看自己的channel 把id和secret填到下面
+
+  Callback URL在自己channel的LINE Login裡做設定，登入後會帶著query到Callback URL的頁面
 */
 
 const channelId = ''
